@@ -1,12 +1,12 @@
 
 
-# Red Echoes 🔴
+# Red Echoes 
 
 > *"Ogni dettaglio potrebbe rappresentare un indizio."*
 
 ---
 
-## 📋 Indice
+##  Indice
 1. [Panoramica del Progetto](#-panoramica-del-progetto)
 2. [Introduzione alla Storia](#-introduzione-alla-storia)
 3. [Pilastri di Gameplay e Meccaniche](#-pilastri-di-gameplay-e-meccaniche)
@@ -16,7 +16,7 @@
 
 ---
 
-## 🎮 Panoramica del Progetto
+##  Panoramica del Progetto
 * **Titolo:** Red Echoes
 * **Genere:** Avventura Investigativa / Esplorazione 3D
 * **Piattaforma Target:** PC
@@ -24,7 +24,7 @@
 
 ---
 
-## 📖 Introduzione alla Storia
+##  Introduzione alla Storia
 **Red Echoes** è un videogioco d'avventura in 3D ambientato su **Kepler-186f**, un pianeta extrasolare caratterizzato da vaste foreste dalla vegetazione rossastra, specchi d'acqua e strutture scientifiche abbandonate. L'ambientazione si ispira alle reali caratteristiche astronomiche del pianeta e offre uno scenario misterioso in cui l'esplorazione e l'investigazione costituiscono gli elementi centrali dell'esperienza di gioco.
 
 La storia ha inizio quando una spedizione scientifica inviata sul pianeta interrompe improvvisamente ogni comunicazione con la Terra. Per fare luce sull'accaduto, viene organizzata una nuova missione con l'obiettivo di recuperare i dati raccolti e ricostruire gli ultimi eventi che hanno preceduto la scomparsa dell'equipaggio. 
@@ -33,7 +33,7 @@ Il giocatore assume il ruolo dell'**astronauta incaricato di condurre l'indagine
 
 ---
 
-## 🕹️ Pilastri di Gameplay e Meccaniche
+##  Pilastri di Gameplay e Meccaniche
 
 * **Esplorazione e Investigazione:** 
   Il giocatore esplora liberamente gli ambienti per raccogliere documenti, registrazioni audio e campioni tramite strumenti scientifici dedicati.
@@ -46,7 +46,7 @@ Il giocatore assume il ruolo dell'**astronauta incaricato di condurre l'indagine
 
 ---
 
-## 🌲 Design e Ambientazione
+##  Design e Ambientazione
 
 L'ispirazione visiva e concettuale deriva dalle reali caratteristiche di Kepler-186f:
 * **Vegetazione Rossastra:** Adattamento biologico alla stella madre del pianeta (nana rossa).
@@ -55,7 +55,7 @@ L'ispirazione visiva e concettuale deriva dalle reali caratteristiche di Kepler-
 
 ---
 
-## 🛠️ Struttura dei Moduli 3D
+##  Struttura dei Moduli 3D
 
 Per la costruzione della mappa di gioco sono state progettate **tessere modulari (Tiles)** tramite Blender, raccordate da un **sentiero comune** per consentire l'interconnessione dinamica degli scenari:
 
