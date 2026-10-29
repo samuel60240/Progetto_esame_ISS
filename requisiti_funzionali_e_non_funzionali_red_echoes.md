@@ -4,20 +4,7 @@ Questo documento definisce i **Requisiti Funzionali** e la classificazione compl
 
 ---
 
-## 1. Requisiti Funzionali (Functional Requirements)
-
-I requisiti funzionali definiscono i comportamenti, le azioni e le funzionalità che il sistema deve eseguire:
-
-* **RF-01 (Esplorazione e Navigazione):** Il sistema deve consentire al giocatore di muovere l'astronauta all'interno dell'ambiente 3D di Kepler-186f, gestendo collisioni con il terreno, la vegetazione e gli ostacoli.
-* **RF-02 (Raccolta Indizi e Oggetti):** Il giocatore deve poter interagire con elementi dello scenario per raccogliere registrazioni audio, documenti di testo e log della spedizione precedente.
-* **RF-03 (Strumenti Scientifici):** Il sistema deve fornire al giocatore strumenti per scansionare l'ambiente, analizzare la vegetazione rossastra e rilevare anomalie o segnali.
-* **RF-04 (Risoluzione Enigmi):** Il gioco deve verificare lo stato di avanzamento degli enigmi ambientali basandosi sulle informazioni e sugli oggetti raccolti.
-* **RF-05 (Bifurcazione Narrativa e Finali):** Il sistema deve tracciare le decisioni chiave prese dal giocatore e sbloccare uno dei **due finali previsti** in base alle scelte effettuate nell'ultima fase di gioco.
-* **RF-06 (Gestione Salvataggi):** Il gioco deve permettere il salvataggio manuale e automatico dello stato del giocatore (posizione, inventario, indizi trovati).
-
----
-
-## 2. Requisiti Non Funzionali (Non-Functional Requirements)
+## 1. Requisiti Non Funzionali (Non-Functional Requirements)
 
 ```
                        ┌─────────────────────────┐
@@ -32,7 +19,7 @@ I requisiti funzionali definiscono i comportamenti, le azioni e le funzionalità
 
 ---
 
-### 2.1 Requisiti del Prodotto
+### 1.1 Requisiti del Prodotto
 
 #### A. Requisiti di Efficienza
 * **Requisiti di Prestazioni:**
@@ -56,7 +43,7 @@ I requisiti funzionali definiscono i comportamenti, le azioni e le funzionalità
 
 ---
 
-### 2.2 Requisiti Organizzativi
+### 1.2 Requisiti Organizzativi
 
 #### A. Requisiti Ambientali
 * Gli asset 3D e i moduli di terreno sviluppati in Blender devono essere ottimizzati per l'efficienza energetica della GPU/CPU durante il rendering in tempo reale.
@@ -71,7 +58,7 @@ I requisiti funzionali definiscono i comportamenti, le azioni e le funzionalità
 
 ---
 
-### 2.3 Requisiti Esterni
+### 1.3 Requisiti Esterni
 
 #### A. Requisiti Normativi
 * **Requisiti Contabili:** Il progetto deve rientrare nei costi di licenza previsti per tool open-source e software gratuito (Blender, librerie Python).
@@ -85,4 +72,17 @@ I requisiti funzionali definiscono i comportamenti, le azioni e le funzionalità
 * Conformità al GDPR per l'eventuale raccolta anonima di dati di crash o telemetria di gioco.
 
 ---
+## 2. Requisiti Funzionali (Functional Requirements)
+
+I requisiti funzionali definiscono i comportamenti, le azioni e le funzionalità che il sistema deve eseguire:
+
+* **RF-01 (Esplorazione e Navigazione):** Il sistema deve consentire al giocatore di muovere l'astronauta all'interno dell'ambiente 3D di Kepler-186f, gestendo collisioni con il terreno, la vegetazione e gli ostacoli.
+* **RF-02 (Raccolta Indizi e Oggetti):** Il giocatore deve poter interagire con elementi dello scenario per raccogliere registrazioni audio, documenti di testo e log della spedizione precedente.
+* **RF-03 (Strumenti Scientifici):** Il sistema deve fornire al giocatore strumenti per scansionare l'ambiente, analizzare la vegetazione rossastra e rilevare anomalie o segnali.
+* **RF-04 (Risoluzione Enigmi):** Il gioco deve verificare lo stato di avanzamento degli enigmi ambientali basandosi sulle informazioni e sugli oggetti raccolti.
+* **RF-05 (Bifurcazione Narrativa e Finali):** Il sistema deve tracciare le decisioni chiave prese dal giocatore e sbloccare uno dei **due finali previsti** in base alle scelte effettuate nell'ultima fase di gioco.
+* **RF-06 (Gestione Salvataggi):** Il gioco deve permettere il salvataggio manuale e automatico dello stato del giocatore (posizione, inventario, indizi trovati).
+
+---
+
 *Documento di Analisi dei Requisiti per Red Echoes.*
