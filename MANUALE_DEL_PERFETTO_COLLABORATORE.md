@@ -80,11 +80,9 @@ Fatto cio andate nella vostra area di lavoro sul vostro PC, aprite il terminale 
 
 
 A questo punto avrete nella vostra cartella tutto il repositori aggiornato.
-Ogni volta che passano più di 12 ora ricordate di fare la pull request, qualcuno potrebbe aver apportato modifiche o aggiornamenti,
-verificate se state lavorando alla stessa cosa o tenetevi aggiornati.
+Ogni volta che passano più di 12 ore ricordate di fare la pull request, qualcuno potrebbe aver apportato modifiche o aggiornamenti, verificate se state lavorando alla stessa cosa o tenetevi aggiornati.
 Il bello di git è che è possibile ritornare alle vecchie versioni anche dopo tempo, per questo è importante usarlo.
-Aprite un file nella vostra area di lavoro nel progetto, lavorate per un po' sostanzialmente avete creato qualcosa che non c'era o ne avete alterato
-l'origine, dovete quindi rendere concrete queste modifiche , effettuate la seguente prassi
+Aprite un file nella vostra area di lavoro nel progetto, lavorate per un po' sostanzialmente avete creato qualcosa che non c'era o ne avete alterato l'origine, dovete quindi rendere concrete queste modifiche , effettuate la seguente prassi
 
        git add (elenco ogni elemento che voglio aggiungere all' elenco dei file podifcati
        git add . #seleziona tutti i file, attenzione pero! se avevate versioni precedenti, 
