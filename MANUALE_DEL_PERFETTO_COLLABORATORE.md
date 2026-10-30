@@ -16,7 +16,8 @@ La procedura è la seguente:
             
                 ssh-keygen -t ed25519 -C "tua_email@DiGitHub.com" 
             
-            non dimenticare le virgolette,premuto invia e risposto alle domande sempre con invio verranno 
+            non dimenticare le virgolette,premuto invio (FARE ATTENZU^IONE QUANDO RICHIEDE LA FRASE, quest'ultima sara richiesta ad ogni push) e 
+            risposto alle domande sempre con invio verranno 
             creati 2 file in un percorso specifico che non ti importa andare a scoprire, i due file sono,
             1 la chiave privata, 
             2 la chiave pubblica.
