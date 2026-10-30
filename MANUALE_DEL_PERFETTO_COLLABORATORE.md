@@ -59,7 +59,8 @@ La procedura è la seguente:
 
             # Arch / Manjaro
                 sudo pacman -S git
-
+        MacOs:
+            brew install --cask github
     -Bisogna inizializzare l'ambiente con le vostre credenziali con i seguenti comandi:
         
         git config --global user.name "Il Tuo Nome"
@@ -69,8 +70,8 @@ Siamo pronti per iniziare la nostra esperienza di collaborazione su git hub!!
 
 Come si scarica il progetto sul computer? e perche lo devo fare così spesso?
 
-La prima cosa da fare è collegare il prgetto su git hub in una locazione del vostro computer. Assicuratevi di essere connessi alla rete.
-Aprite Git hub, entrate nella repositori di interesse, premente il tasto vere code.
+La prima cosa da fare è collegare il progetto su git hub in una locazione del vostro computer. Assicuratevi di essere connessi alla rete.
+Aprite Git hub, entrate nella repositori di interesse, premete il tasto vere code.
 
 Abbiamo creto una chiave SSH, quindi potete selezionare SSH anziche HTTPS, copiate l' URL.
 Fatto cio andate nella vostra area di lavoro sul vostro PC, aprite il terminale e digitate il comando
@@ -82,10 +83,10 @@ A questo punto avrete nella vostra cartella tutto il repositori aggiornato.
 Ogni volta che passano più di 12 ora ricordate di fare la pull request, qualcuno potrebbe aver apportato modifiche o aggiornamenti,
 verificate se state lavorando alla stessa cosa o tenetevi aggiornati.
 Il bello di git è che è possibile ritornare alle vecchie versioni anche dopo tempo, per questo è importante usarlo.
-Aprite un file nella vostra are di lavoro nel progetto, lavorate per un po' sostanzialmente avete creato qualcosa che non c'era o ne avete alterato
+Aprite un file nella vostra area di lavoro nel progetto, lavorate per un po' sostanzialmente avete creato qualcosa che non c'era o ne avete alterato
 l'origine, dovete quindi rendere concrete queste modifiche , effettuate la seguente prassi
 
-       git  add (elenco ogni elemento che voglio aggiungere all' elenco dei file podifcati
+       git add (elenco ogni elemento che voglio aggiungere all' elenco dei file podifcati
        git add . #seleziona tutti i file, attenzione pero! se avevate versioni precedenti, 
                     e non effettuate l'aggiornamento al repositori rompete tutto
        git pull #per evitare incompatibilità con la versione su git hub prima di effettuare add, commit e push
