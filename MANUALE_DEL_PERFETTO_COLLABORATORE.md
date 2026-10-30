@@ -86,7 +86,8 @@ Aprite un file nella vostra are di lavoro nel progetto, lavorate per un po' sost
 l'origine, dovete quindi rendere concrete queste modifiche , effettuate la seguente prassi
 
        git  add (elenco ogni elemento che voglio aggiungere all' elenco dei file podifcati
-       git add . #seleziona tutti i file, attenzione pero! se avevate versioni precedenti, e non effettuate l'aggiornamento al repositori rompete tutto
+       git add . #seleziona tutti i file, attenzione pero! se avevate versioni precedenti, 
+                    e non effettuate l'aggiornamento al repositori rompete tutto
        git pull #per evitare incompatibilità con la versione su git hub prima di effettuare add, commit e push
        git commit -m "messaggio con cui verra salvata la modifica" # che sia significativo il messaggio
        git push
