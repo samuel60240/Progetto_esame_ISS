@@ -13,7 +13,36 @@ La procedura è la seguente:
     -Bisogna impostare una chiave per i push, questa pocedura è difficile ma si effettua una sola volta.
         windows:
             -Aprire powershell e digitare il comando:
-                         ssh-keygen -t ed25519 -C "tua_email@DiGitHub.com" 
-            non dimenticare le virgolette,premuto invia e risposto alle domande sempre con invio verranno creati 2 file in un percorso specifico che non ti importa andare a scoprire, i due file sono, 1 la chiave privata, 2 la chiave pubblica. Non ti resta che copiare la chiave pubblica con il seguente comando:
-                            Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | Set-Clipboard
+            
+                ssh-keygen -t ed25519 -C "tua_email@DiGitHub.com" 
+            
+            non dimenticare le virgolette,premuto invia e risposto alle domande sempre con invio verranno 
+            creati 2 file in un percorso specifico che non ti importa andare a scoprire, i due file sono,
+            1 la chiave privata, 
+            2 la chiave pubblica.
+            Non ti resta che copiare la chiave pubblica con il seguente comando:
+                
+                Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | Set-Clipboard
+            
             A questo punto avrai la chiave nei tuoi appunti, vai su git hub, Account-> SSh and GPG keys, clicca su new SSH key ed incolla CTRL + V
+
+        linux:
+            -Aprire il terminale e digitare il comando:
+                
+                ssh-keygen -t ed25519 -C "tua_email@example.com"
+
+            -Mostrare la chiave per copiarla col comando:
+                
+                cat ~/.ssh/id_ed25519.pub
+
+            -Vai su git hub Account->SSH and GPG keys, clicca su new SSH key ed incolla la chiave
+
+        MacOS
+            
+            ssh-keygen -t ed25519 -C "tua_email@example.com"
+
+            pbcopy < ~/.ssh/id_ed25519.pub
+
+
+
+
